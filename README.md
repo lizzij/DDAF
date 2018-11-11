@@ -20,6 +20,8 @@ $ pip install openpyxl
 
 Code children's choice of machines and blocks to learning outcome, according to how similar they are to the correct rule. Then compare the learning outcome of free play and didactic learning.
 
+<img src="https://raw.githubusercontent.com/lizzij/DDAF/master/freePlayMaterial.png" width="500">
+
 Rules are:
 * Number rule (number of blocks per machine);
 * Shape match (between blocks, and between block and machine);
@@ -30,11 +32,9 @@ Coding scheme (sum of):
 * Block-block rule concurrence divided by # of relation(s);
 * Block-machine rule concurrence divided by # of relation(s);
 
-<img src="https://raw.githubusercontent.com/lizzij/DDAF/master/freePlayMaterial.png" width="500">
-
 ## Running the tests
 
-For instance, this is a an example of one choice of machines and blocks (recorded by researchers): 
+For instance, this is a an example of one choice of machines and blocks: 
 
 ```
 BR1::pR&rR:::BR2::rC&pT&pC
