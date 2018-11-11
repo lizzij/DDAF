@@ -3,84 +3,47 @@
 Sim, Z., Mahal, K. & Xu, F. (2017) Berkeley Early Learning Lab  
 Keywords: free play; causal learning; generalization
 
-## Getting Started
+## Abstract
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Data analysis to show that children are able to learn more complex causal rules through free play. Children and put different blocks on machines to make the machine go (play music). Blocks and machines have various shapes and colors, so do they learn the rule faster through free play? 
 
-### Prerequisites
+The study design and method can be founds [here](http://docs.wixstatic.com/ugd/9f32e5_2732ecc1ff134ea299b72f1316a7bf9b.pdf).  
+### Usage
 
-What things you need to install the software and how to install them:
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Install openpyxl:
 
 ```
-Give examples
+$ pip install openpyxl
 ```
 
-```
-until finished
-```
+### Purpose
 
-End with an example of getting some data out of the system or using it for a little demo
+Code children's choice of machines and blocks to learning outcome, according to how similar they are to the correct rule. Then compare the learning outcome of free play and didactic learning.
+
+Rules are:
+* Number rule (number of blocks per machine);
+* Shape match (between blocks, and between block and machine);
+* Color match (between blocks, and between block and machine);
+
+Coding scheme (sum of):
+* Number rule concurrence;
+* Block-block rule concurrence divided by # of relation(s);
+* Block-machine rule concurrence divided by # of relation(s);
+
+<img src="https://raw.githubusercontent.com/lizzij/DDAF/master/freePlayMaterial.png" width="500">
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+For instance, this is a an example of one choice of machines and blocks (recorded by researchers): 
 
 ```
-Give an example
+BR1::pR&rR:::BR2::rC&pT&pC
 ```
+Denotes: the child pick up "1 blue rectangle machine" and put "1 purple rectangle block + 1 red rectangle block" on top of it; then the child stacked "1 blue rectangle machine" and put "1 red circle block + 1 purple triangle block + 1 purple circle" on top of it; 
 
-### And coding style tests
+Denotes: the child pick up "1 blue rectangle machine" and put "1 purple rectangle block + 1 red rectangle block" on top of it; then the child stacked "1 blue rectangle machine" and put "1 red circle block + 1 purple triangle block + 1 purple circle" on top of it; 
 
-Explain what these tests test and why
-
+The coding scheme returns:
 ```
-Give an example
+0 + 0.75 + 0.5 = 1.25
 ```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
