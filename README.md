@@ -27,7 +27,7 @@ Coding scheme (sum of):
 * Block-block rule concurrence divided by # of relation(s);
 * Block-machine rule concurrence divided by # of relation(s);
 
-## Running the tests
+## Usage
 
 For instance, this is a an example of one choice of machines and blocks: 
 
@@ -44,7 +44,7 @@ The coding scheme returns:
 ```
 0 + 0.75 + 0.5 = 1.25
 ```
-### Usage
+### Setup
 
 Install openpyxl:
 
