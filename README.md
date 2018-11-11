@@ -39,9 +39,11 @@ For instance, this is a an example of one choice of machines and blocks:
 ```
 BR1::pR&rR:::BR2::rC&pT&pC
 ```
-Denotes: the child pick up "1 blue rectangle machine" and put "1 purple rectangle block + 1 red rectangle block" on top of it; then the child stacked "1 blue rectangle machine" and put "1 red circle block + 1 purple triangle block + 1 purple circle" on top of it; 
-
-Denotes: the child pick up "1 blue rectangle machine" and put "1 purple rectangle block + 1 red rectangle block" on top of it; then the child stacked "1 blue rectangle machine" and put "1 red circle block + 1 purple triangle block + 1 purple circle" on top of it; 
+Denotes: 
+* the child pick up "1 blue rectangle machine" and 
+* put "1 purple rectangle block + 1 red rectangle block" on top of it; then 
+* the child stacked "1 blue rectangle machine" and 
+* put "1 red circle block + 1 purple triangle block + 1 purple circle" on top of it; 
 
 The coding scheme returns:
 ```
