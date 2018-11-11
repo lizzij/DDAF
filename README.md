@@ -7,7 +7,7 @@ Keywords: free play; causal learning; generalization
 
 Data analysis to show that children are able to learn more complex causal rules through free play. Children and put different blocks on machines to make the machine go (play music). Blocks and machines have various shapes and colors, so do they learn the rule faster through free play? 
 
-The study design and method can be founds [here](http://docs.wixstatic.com/ugd/9f32e5_2732ecc1ff134ea299b72f1316a7bf9b.pdf).  
+The paper containing study design and method can be founds [here](http://docs.wixstatic.com/ugd/9f32e5_2732ecc1ff134ea299b72f1316a7bf9b.pdf).  
 ### Usage
 
 Install openpyxl:
