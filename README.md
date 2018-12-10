@@ -15,7 +15,9 @@ The paper containing study design and method can be founds [here](http://docs.wi
 
 Code children's choice of machines and blocks to learning outcome, according to how similar they are to the correct rule. Then compare the learning outcome of free play and didactic learning.
 
-<img src="https://raw.githubusercontent.com/lizzij/DDAF/master/freePlayMaterial.png" width="500" align="middle">
+<div align="center">
+   <img src="https://raw.githubusercontent.com/lizzij/DDAF/master/freePlayMaterial.png" width="500" align="middle">
+</div>
 
 Rules are:
 * Number rule (number of blocks per machine);
